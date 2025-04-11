@@ -1,6 +1,6 @@
 -- All Configurations
-require('keymaps')
+require('options')
 require('plugins')
-require('colorscheme')
 require('plugins.configs')
-
+require('colorscheme')
+require('keymaps')

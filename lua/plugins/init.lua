@@ -15,13 +15,7 @@ local plugins = {
   'wbthomason/packer.nvim',
 
   -- Colorscheme plugins
-  '0xBl4nk/darking.nvim',
-  { 
-    "bluz71/vim-moonfly-colors", 
-    name = "moonfly", 
-    lazy = false, 
-    priority = 1000 
-  },
+  'sainnhe/gruvbox-material', 
 
   -- LSP plugins
   {
@@ -60,7 +54,10 @@ local plugins = {
     dependencies = { {'nvim-lua/plenary.nvim'} }
   },
   'andweeb/presence.nvim',
-  'iamcco/markdown-preview.nvim'
+  'iamcco/markdown-preview.nvim',
+  {
+    'goolord/alpha-nvim',
+  }
 }
 
 local opts = {}

@@ -1,9 +1,4 @@
--- Neovim Config
-vim.cmd('set backspace=2')
-vim.cmd('set tabstop=2')
-vim.cmd('set shiftwidth=2')
-vim.cmd('set expandtab')
-vim.cmd('set rnu')
+local builtin = require('telescope.builtin')
 
 -- Neovim Keymaps
 vim.keymap.set('n', '<C-k>', ':wincmd k<CR>')
@@ -16,3 +11,8 @@ vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
 -- Neo-Tree Keymaps
 vim.keymap.set('n', '<C-n>', ':Neotree filesystem toggle left<CR>')
 
+-- Telescope Keymaps
+vim.keymap.set('n', '<C-p>', builtin.find_files, {})
+vim.keymap.set('n', '<Space><Space>', builtin.oldfiles, {})
+vim.keymap.set('n', '<Space>fg', builtin.live_grep, {})
+vim.keymap.set('n', '<Space>fh', builtin.help_tags, {})

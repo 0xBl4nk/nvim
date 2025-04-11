@@ -31,3 +31,8 @@ Directory Tree:
 │       │   └── treesitter.lua
 │       └── init.lua
 └── readme
+-------------------------------------
+Arch:
+pacman -S lua-language-server
+Gentoo:
+emerge dev-util/lua-language-server
