@@ -6,7 +6,7 @@ vim.keymap.set('n', '<C-j>', ':wincmd j<CR>')
 vim.keymap.set('n', '<C-h>', ':wincmd h<CR>')
 vim.keymap.set('n', '<C-l>', ':wincmd l<CR>')
 
-vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
+vim.keymap.set('n', '<C-h>', ':nohlsearch<CR>')
 
 -- Neo-Tree Keymaps
 vim.keymap.set('n', '<C-n>', ':Neotree filesystem toggle left<CR>')

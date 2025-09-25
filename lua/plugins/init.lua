@@ -15,7 +15,8 @@ local plugins = {
   'wbthomason/packer.nvim',
 
   -- Colorscheme plugins
-  'sainnhe/gruvbox-material', 
+  'sainnhe/gruvbox-material',
+  'rose-pine/neovim',
 
   -- LSP plugins
   {
